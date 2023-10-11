@@ -1,0 +1,31 @@
+.textWrapper {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text {
+  white-space: nowrap;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(74, 74, 74);
+}
+
+.id {
+  color: rgb(74, 74, 74);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card {
+  margin: 10px 50px;
+}
